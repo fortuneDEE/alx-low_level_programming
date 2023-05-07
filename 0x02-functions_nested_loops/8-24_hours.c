@@ -2,6 +2,7 @@
  /**
   * jack_bauer - prints every minute of the day of jack bauer
   * starting from 00:00 to 23:59
+  * return: 0
   */
 
 void jack_bauer(void)
@@ -25,4 +26,5 @@ void jack_bauer(void)
 		}
 		i++;
 	}
+	return (0);
 }
